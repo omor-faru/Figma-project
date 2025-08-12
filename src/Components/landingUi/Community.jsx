@@ -1,19 +1,20 @@
 const Community = () => {
   return (
-    <div className="items-center flex justify-center leading-[25px] ">
-        <div>
-      <h1 className=""><span className="text-center text-[#4D4D4D] font-semibold text-[30px]">Manage your entire community
-        </span>
-         <br />
-      <span className="text-center text-[#4D4D4D] font-semibold text-[30px] flex justify-center">
-        in a single system
-        </span>
+    <div className="flex justify-center items-center px-4 py-8">
+      <div className="text-center max-w-2xl">
+        {/* Title */}
+        <h1 className="text-[#4D4D4D] font-semibold text-2xl sm:text-3xl md:text-[30px] leading-snug">
+          Manage your entire community
+          <br className="hidden sm:block" />
+          in a single system
         </h1>
-      <p className="font-normal text-[12px] leading-[17px] text-[#717171] items-center justify-center flex py-3">Who is Nextcent suitable for?
+
+        {/* Subtitle */}
+        <p className="font-normal text-sm sm:text-base leading-relaxed text-[#717171] mt-3">
+          Who is Nextcent suitable for?
         </p>
       </div>
     </div>
-    
   )
 }
 

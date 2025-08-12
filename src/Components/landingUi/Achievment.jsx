@@ -5,53 +5,53 @@ import icon6 from "../../assets/Icon (6).png"
 
 const Achievment = () => {
   return (
-    <div className="bg-[#F5F7FA] py-10 px-40 w-full">
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center max-w-5xl mx-auto gap-6">
+    <div className="bg-[#F5F7FA] py-10 px-4 md:px-20 lg:px-40 w-full">
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-center max-w-5xl mx-auto gap-8">
         
         
-        <div className="max-w-md">
-          <h2 className="text-[25px] font-bold text-[#4D4D4D] leading-[31px]">
+        <div className="max-w-md text-center md:text-left">
+          <h2 className="text-2xl md:text-[25px] font-bold text-[#4D4D4D] leading-snug">
             Helping a local
           </h2>
-          <h2 className="text-[25px] font-semibold text-[#4CAF4F] leading-[31px]">
+          <h2 className="text-2xl md:text-[25px] font-semibold text-[#4CAF4F] leading-snug">
             business reinvent itself
           </h2>
-          <p className="text-[12px] text-[#18191F] mt-2">
+          <p className="text-sm md:text-[12px] text-[#18191F] mt-2">
             We reached here with our hard work and dedication
           </p>
         </div>
 
-      
-        <div className="grid grid-cols-2 gap-x-4 gap-y-6">
-          <div className="flex items-center gap-[11px] w-[177px] h-[43px]">
-            <img src={icon1} alt="Members" className="w-[34px] h-[34px]" />
+        
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-6">
+          <div className="flex items-center gap-3">
+            <img src={icon1} alt="Members" className="w-8 h-8" />
             <div>
-              <p className="text-[19px] font-bold text-[#4D4D4D]">2,245,341</p>
-              <p className="text-[11px] text-[#717171]">Members</p>
+              <p className="text-lg md:text-[19px] font-bold text-[#4D4D4D]">2,245,341</p>
+              <p className="text-xs md:text-[11px] text-[#717171]">Members</p>
             </div>
           </div>
 
-          <div className="flex items-center gap-[11px] w-[177px] h-[43px]">
-            <img src={icon4} alt="Clubs" className="w-[34px] h-[34px]" />
+          <div className="flex items-center gap-3">
+            <img src={icon4} alt="Clubs" className="w-8 h-8" />
             <div>
-              <p className="text-[19px] font-bold text-[#4D4D4D]">46,328</p>
-              <p className="text-[11px] text-[#717171]">Clubs</p>
+              <p className="text-lg md:text-[19px] font-bold text-[#4D4D4D]">46,328</p>
+              <p className="text-xs md:text-[11px] text-[#717171]">Clubs</p>
             </div>
           </div>
 
-          <div className="flex items-center gap-[11px] w-[177px] h-[43px]">
-            <img src={icon5} alt="Event Bookings" className="w-[34px] h-[34px]" />
+          <div className="flex items-center gap-3">
+            <img src={icon5} alt="Event Bookings" className="w-8 h-8" />
             <div>
-              <p className="text-[19px] font-bold text-[#4D4D4D]">828,867</p>
-              <p className="text-[11px] text-[#717171]">Event Bookings</p>
+              <p className="text-lg md:text-[19px] font-bold text-[#4D4D4D]">828,867</p>
+              <p className="text-xs md:text-[11px] text-[#717171]">Event Bookings</p>
             </div>
           </div>
 
-          <div className="flex items-center gap-[11px] w-[177px] h-[43px]">
-            <img src={icon6} alt="Payments" className="w-[34px] h-[34px]" />
+          <div className="flex items-center gap-3">
+            <img src={icon6} alt="Payments" className="w-8 h-8" />
             <div>
-              <p className="text-[19px] font-bold text-[#4D4D4D]">1,926,436</p>
-              <p className="text-[11px] text-[#717171]">Payments</p>
+              <p className="text-lg md:text-[19px] font-bold text-[#4D4D4D]">1,926,436</p>
+              <p className="text-xs md:text-[11px] text-[#717171]">Payments</p>
             </div>
           </div>
         </div>
