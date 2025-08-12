@@ -1,6 +1,5 @@
 import Header from './Components/sheared/Header'
 import './index.css'
-import './App.css'
 import Banner from './Components/landingUi/Banner'
 import Clients from './Components/landingUi/Clients'
 import Community from './Components/landingUi/Community'
