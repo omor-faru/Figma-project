@@ -7,8 +7,6 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "homepage": "https://omor-faru.github.io/Figma-project",
-
     "preview": "vite preview"
   },
   "dependencies": {
